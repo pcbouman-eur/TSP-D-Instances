@@ -1,0 +1,12 @@
+/* Number of Operations */
+8
+/* List of Operations. */
+/* Start	End	Fly	#Internal	Locations...*/
+0	7	4	1	1
+7	0	3	2	5	0
+0	0	2	2	6	0
+0	0	-1	0
+0	0	-1	0
+0	0	-1	0
+0	0	-1	0
+0	0	-1	0
