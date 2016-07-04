@@ -1,0 +1,9 @@
+/* Number of Operations */
+4
+/* List of Operations. */
+/* Start	End	Fly	#Internal	Locations...*/
+0	0	-1	0	/* Operation cost : 0.0*/
+0	2	1	1	4	/* Operation cost : 47.9270015757277*/
+2	2	3	0	/* Operation cost : 14.01626923134491*/
+2	0	5	0	/* Operation cost : 30.63187773346275*/
+/* Total cost : 92.57514854053537 */
