@@ -1,0 +1,31 @@
+#MAXFLY 21.51938983372878
+
+/*The speed of the Truck*/
+1.0
+/*The speed of the Drone*/
+0.5
+/*Number of Nodes*/
+20
+/*The Depot*/
+0.06781062565472318 0.6762222002598981 depot
+/*The Locations (x_coor y_coor name)*/
+84.0 68.0 loc1
+18.0 97.0 loc2
+69.0 36.0 loc3
+44.0 18.0 loc4
+36.0 56.0 loc5
+45.0 78.0 loc6
+16.0 57.0 loc7
+78.0 65.0 loc8
+70.0 47.0 loc9
+15.0 87.0 loc10
+33.0 31.0 loc11
+15.0 21.0 loc12
+89.0 38.0 loc13
+86.0 33.0 loc14
+29.0 4.0 loc15
+12.0 9.0 loc16
+41.0 63.0 loc17
+14.0 96.0 loc18
+47.0 74.0 loc19
+

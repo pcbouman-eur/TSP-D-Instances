@@ -1,0 +1,26 @@
+#MAXFLY Infinity
+#NOVISIT 1
+#NOVISIT 3
+#NOVISIT 4
+#NOVISIT 7
+#NOVISIT 9
+
+/*The speed of the Truck*/
+1.0
+/*The speed of the Drone*/
+0.3333333333333333
+/*Number of Nodes*/
+10
+/*The Depot*/
+0.16388643294238858 0.3772803815760636 depot
+/*The Locations (x_coor y_coor name)*/
+23.0 12.0 loc1
+3.0 17.0 loc2
+17.0 8.0 loc3
+78.0 4.0 loc4
+83.0 7.0 loc5
+85.0 36.0 loc6
+24.0 15.0 loc7
+79.0 64.0 loc8
+75.0 55.0 loc9
+
