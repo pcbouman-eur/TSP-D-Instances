@@ -9,7 +9,7 @@ Currently this repository only contains Geometric Instances.
 
 This repository contains the instances used for the paper *Optimization Approaches for the Traveling Salesman Problem with Drone. Niels Agatz, Paul Bouman, and Marie Schmidt. Transportation Science, Articles in Advance.* [https://doi.org/10.1287/trsc.2017.0791](https://doi.org/10.1287/trsc.2017.0791)
 
-You are kindly requested to cite this paper if these instances are relevant to your research. Some relevant Java code to work with these instances can be found [https://github.com/pcbouman-eur/Drones-TSP](in this related Github repository).
+You are kindly requested to cite this paper if these instances are relevant to your research. Some relevant Java code to work with these instances can be found [in this related Github repository](https://github.com/pcbouman-eur/Drones-TSP).
 
 ## Grammar of Geometric Instances
 A Geometric instance defines a set of points in a two dimensional plane. The distance between two points is assumed to be the Euclidean distance.
