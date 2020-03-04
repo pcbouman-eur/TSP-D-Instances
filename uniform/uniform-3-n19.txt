@@ -1,0 +1,27 @@
+/*The speed of the Truck*/
+1.0
+/*The speed of the Drone*/
+0.5
+/*Number of Nodes*/
+19
+/*The Depot*/
+0.6621030332492979 0.6585611670960427 depot
+/*The Locations (x_coor y_coor name)*/
+71.0 37.0 loc1
+76.0 62.0 loc2
+35.0 16.0 loc3
+80.0 31.0 loc4
+98.0 77.0 loc5
+50.0 38.0 loc6
+23.0 68.0 loc7
+63.0 92.0 loc8
+41.0 76.0 loc9
+66.0 13.0 loc10
+78.0 81.0 loc11
+3.0 99.0 loc12
+56.0 41.0 loc13
+14.0 32.0 loc14
+7.0 95.0 loc15
+89.0 66.0 loc16
+11.0 94.0 loc17
+22.0 12.0 loc18

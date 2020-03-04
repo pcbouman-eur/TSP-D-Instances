@@ -7,9 +7,11 @@ Comments within an instances file start with /\* and end with \*/ and have to be
 
 Currently this repository only contains Geometric Instances.
 
-This repository contains the instances used for the paper *Optimization Approaches for the Traveling Salesman Problem with Drone. Niels Agatz, Paul Bouman, and Marie Schmidt. Transportation Science, Articles in Advance.* [https://doi.org/10.1287/trsc.2017.0791](https://doi.org/10.1287/trsc.2017.0791)
+This repository contains the instances used for the paper *Optimization Approaches for the Traveling Salesman Problem with Drone. Niels Agatz, Paul Bouman, and Marie Schmidt. Transportation Science 2018 52:4, 965-981* [https://doi.org/10.1287/trsc.2017.0791](https://doi.org/10.1287/trsc.2017.0791)
 
-You are kindly requested to cite this paper if these instances are relevant to your research. Some relevant Java code to work with these instances can be found [in this related Github repository](https://github.com/pcbouman-eur/Drones-TSP).
+In the 1.3 version of the repository, we also added uniform instances of sizes 10 to 20 that we solved in the paper *Dynamic programming approaches for the traveling salesman problem with drone. Paul Bouman, Niels Agatz and Marie Schmidt. Networks. 2018; 72: 528– 542.* [https://doi.org/10.1002/net.21864](https://doi.org/10.1002/net.21864)
+
+You are kindly requested to cite these papers if these instances are relevant to your research. Some relevant Java code to work with these instances can be found [in this related Github repository](https://github.com/pcbouman-eur/Drones-TSP).
 
 ## Grammar of Geometric Instances
 A Geometric instance defines a set of points in a two dimensional plane. The distance between two points is assumed to be the Euclidean distance.
@@ -27,5 +29,7 @@ The `novisit` restrictions imply that certain locations can not be covered by th
 
 ## Solutions to Instances
 We have added some solutions for the instances. For instances up to size 7 we have provided exact solutions with the suffix `sMIP.txt`. For all instances we have also provided a TSP tour as found by the [Concorde TSP Solver](http://www.math.uwaterloo.ca/tsp/concorde.html). These solutions do not include the drone and have the suffix `tsp.txt` in their file name.
+
+In v1.3 of this repository, we have added exact solutions for uniform instances up to size 17 based on our second paper. We also added solutions for instances up to size 20 with the additional restriction that the number of nodes visited by the truck in a single operation is restricted. For example, a solution `uniform-1-n18-lim_2-DP` is the optimal solution if we assume that each operation can have at most two truck-only nodes. However, we are not certain if there are better solutions possible if there can be more truck-only nodes in an operation.
 
 The grammar of the solution files is relatively straightforward. Ignoring java-style comments, the first number in the file contains the number of operations to be parsed. The tour the consists of an operation. Every operation is contained on a single line. The first number is the id of the start node of the operation, the second number is the end node of the operation. The third number is the node that should be covered by the drone (or 0 if no node is to be covered by the drone in this operation). The fourth number is the number of internal nodes (those visited by the truck besides the start and end node). If this number is larger than 0, there will be that many additional node indices on this line, in the order they are visited by the truck.
